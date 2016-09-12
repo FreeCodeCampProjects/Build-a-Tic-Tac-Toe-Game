@@ -1,0 +1,161 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body,
+.cell-button {
+  color: #FFF;
+}
+
+body,
+button,
+.cell-button {
+  background-color: #0C0B0E;
+}
+
+body,
+button.btn,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.output-score,
+.output-turn,
+.ui-btn {
+  font-weight: 300;
+}
+
+body,
+.footer,
+.output-score,
+.output-turn,
+td {
+  text-align: center;
+}
+
+.btn-newgame, .ui-btn {
+  float: left;
+}
+
+.btn-symbol {
+  font-size: 50px;
+}
+
+.btn-symbol, .ui-btn {
+  width: 100px;
+}
+
+button {
+  border-radius: 0 !important;
+  margin: 0;
+}
+
+button,
+.cell {
+  border: 0px;
+}
+
+button, 
+.cell,
+.cell-button {
+  font-size: 20px;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+button,
+td {
+  padding: 0;
+}
+
+.cell {
+  font-family: 'Cutive Mono', monospace;
+  height: 108%;
+  width: 99%;
+}
+
+.cell-button {
+  border: 0;
+  height: 100%;
+  margin-top: -25px;
+  width: 90px;
+}
+
+.cell-button:hover {
+  background-color: #18161D;
+  cursor: pointer;
+}
+
+.cell-button,
+.container,
+.front-panel,
+.hud,
+.game-table {
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+}
+
+.cell, td {
+  margin: 0;
+}
+
+.container {
+  margin-top: 80px;
+  width: 300px;
+}
+
+.container,
+.front-panel,
+.hud,
+.game-table {
+  position: absolute;
+}
+
+.footer {
+  color: #888;
+  font-size: 8px;
+}
+
+.game-table,
+td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.grid {
+  height: 250px;
+}
+
+.hud,
+table {
+  width: 100%;
+}
+
+.output-feedback {
+  font-size: 25px
+}
+
+.output-turn {
+  font-size: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+.ui-btn {
+  border-bottom: 1px dotted #18161D;
+  border-right: 1px solid #18161D;
+  height: 60px;
+  margin-left: 2px;
+  font-size: 13px;
+}
+
+.ui-btn:hover {
+  background-color: #18161D;
+}
