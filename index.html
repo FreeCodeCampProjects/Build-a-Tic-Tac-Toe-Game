@@ -1,5 +1,5 @@
 <html>
-<head>
+  <head>
     <title>Build a Tic Tac Toe Game</title>
 
     <!-- Meta Data -->
@@ -18,38 +18,31 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/7797721/FreeCodeCamp/Calculator/animate.css" type="text/css">
     <link rel="stylesheet" href="css/style.css">
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
 
-<!-- HUD -->
+    <!-- HUD -->
     <table class="hud">
-        <tr>
-            <td>
-                <button class="ui-btn" id="elem-change-symbol-btn"><i class="fa fa-times-circle-o" aria-hidden="true"></i> change</button>
-                <button class="ui-btn" id="elem-restart-btn"><i class="fa fa-refresh" aria-hidden="true"></i> restart</button>
-                <button class="ui-btn" id="elem-share-btn"><i class="fa fa-share-alt" aria-hidden="true"></i> share</button>
-                <br>
-            <td>
-                
+      <tr>
+        <td>
+          <button class="ui-btn" id="elem-change-symbol-btn"><i class="fa fa-times-circle-o" aria-hidden="true"></i> change</button>
+          <button class="ui-btn" id="elem-restart-btn"><i class="fa fa-refresh" aria-hidden="true"></i> restart</button>
+          <button class="ui-btn" id="elem-share-btn"><i class="fa fa-share-alt" aria-hidden="true"></i> share</button><br>
+        <td>
     </table>
-
-
-  <div class="container" id="container">
-  <h1 id="output-turn" class="output-turn">your turn</h1>
-  <h2 id="output-feedback" class="output-feedback"><br></h2><br>
-
-        <div id="gameboard"></div>
-        <br/><br/>
-        <footer id="footer" class="footer">
-          made by john for
-          <a href="http://www.freecodecamp.com">
+    <div class="container" id="container">
+      <h1 id="output-turn" class="output-turn">your turn</h1>
+      <h2 id="output-feedback" class="output-feedback"><br></h2><br>
+      <div id="gameboard"></div><br/><br/>
+      <footer id="footer" class="footer">
+        made by john for
+        <a href="http://www.freecodecamp.com">
             freecodecamp
           </a>
-        </footer>
+      </footer>
     </div>
-
-<script src="js/app.js"></script>
-</body>
+    <script src="js/app.js"></script>
+  </body>
 </html>
